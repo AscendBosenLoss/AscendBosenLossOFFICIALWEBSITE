@@ -29,3 +29,19 @@ p {
     font-size: 2em;
     margin: 0;
 }
+
+.logo-button {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.logo-button img {
+    width: 100px; /* Adjust the size as needed */
+    height: 100px; /* Adjust the size as needed */
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.logo-button img:hover {
+    transform: scale(1.1);
+}
