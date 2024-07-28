@@ -6,7 +6,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('https://raw.githubusercontent.com/AscendBosenLoss/AscendBosenLossOFFICIALWEBSITE/main/angels.jpg') no-repeat center center fixed;
+    background: url('angels.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
     color: white;
