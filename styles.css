@@ -46,6 +46,7 @@ p {
 .logo-button {
     display: inline-block;
     margin-top: 20px;
+    margin-right: 10px; /* Adjust the spacing between logos */
 }
 
 .logo-button img {
