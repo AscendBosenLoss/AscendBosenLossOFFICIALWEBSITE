@@ -11,6 +11,7 @@ body, html {
     font-family: Arial, sans-serif;
     color: white;
     text-align: center;
+    position: relative;
 }
 
 .centered {
@@ -48,6 +49,28 @@ p {
     transform: scale(1.1);
 }
 
+/* Social Media Section */
+.social-media {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5); /* Optional: adds a semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.social-media h2 {
+    margin: 0 0 10px 0;
+    font-size: 2em;
+}
+
+.social-media .logo-button {
+    display: block;
+    margin: 10px 0;
+}
+
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     h1 {
@@ -59,6 +82,15 @@ p {
     }
 
     .logo-button img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .social-media h2 {
+        font-size: 1.5em;
+    }
+
+    .social-media .logo-button img {
         width: 80px;
         height: 80px;
     }
@@ -74,6 +106,15 @@ p {
     }
 
     .logo-button img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .social-media h2 {
+        font-size: 1.2em;
+    }
+
+    .social-media .logo-button img {
         width: 60px;
         height: 60px;
     }
