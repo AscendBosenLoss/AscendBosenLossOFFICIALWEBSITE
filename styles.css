@@ -97,6 +97,10 @@ p {
 }
 
 @media (max-width: 480px) {
+    body, html {
+        flex-direction: column;
+    }
+
     h1 {
         font-size: 2.5em;
     }
@@ -108,6 +112,12 @@ p {
     .logo-button img {
         width: 60px;
         height: 60px;
+    }
+
+    .social-media {
+        position: static;
+        transform: none;
+        margin-top: 20px;
     }
 
     .social-media h2 {
