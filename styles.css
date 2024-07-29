@@ -43,9 +43,15 @@ p {
     margin: 0;
 }
 
+.exchange-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
 .logo-button {
     display: inline-block;
-    margin-top: 20px;
 }
 
 .logo-button img {
